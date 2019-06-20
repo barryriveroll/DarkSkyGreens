@@ -1,0 +1,184 @@
+//@import "compass";
+
+// Variables
+$main-font: "PT Sans";
+$header-font: "Yeseva One";
+
+html {
+  height: 100%;
+  background: #1d1b19;
+}
+
+body {
+  margin: 0px;
+  font-family: $header-font;
+  color: whitesmoke;
+}
+
+p {
+  font-family: $main-font;
+}
+
+// HEADER
+header {
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+header h1 {
+  font-size: 100px;
+  font-family: $header-font;
+}
+
+.logoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+header p {
+  width: 32%;
+  text-align: center;
+  text-shadow: 2px 2px 7px #000000fa;
+}
+
+header hr {
+  width: 22%;
+  margin-top: -17px;
+  border-style: solid;
+  border-color: #62d246;
+}
+
+// CARDS
+.contentCard {
+  height: 569px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px !important;
+  text-align: center;
+  justify-content: center;
+}
+
+.contentCard h3 {
+  margin-top: 0;
+}
+
+.contentCard hr,
+.contactDiv hr {
+  width: 22%;
+  border-style: solid;
+  border-color: #1d1b19;
+}
+
+// TESTIMONIALS
+.new-indicator,
+.indicator-item {
+  height: 69px !important;
+  width: 69px !important;
+}
+
+.slider {
+  background-image: url(./images/left-quote.png);
+  background-repeat: no-repeat;
+  background-position: 17% 6%;
+}
+
+.slides {
+  background-color: #5f5b6b2e !important;
+  box-shadow: 1px 6px 20px 0px #00000024;
+}
+
+.indicators {
+  bottom: -44px !important;
+}
+
+.indicator-item {
+  background-color: #5f5b6b !important;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.new-indicator {
+  z-index: 1;
+  pointer-events: none;
+}
+
+.testy1 {
+  background-image: url("./images/testimonial1.png") !important;
+}
+.testy2 {
+  background-image: url("./images/testimonial2.png") !important;
+}
+.testy3 {
+  background-image: url("./images/testimonial3.png") !important;
+}
+.testy4 {
+  background-image: url("./images/testimonial4.png") !important;
+}
+
+ul .active {
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0) !important;
+  box-shadow: 0 0 0 6px rgb(230, 206, 101);
+}
+
+.caption h3,
+h5 {
+  text-align: center;
+}
+
+.slides li {
+  box-shadow: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.commentBox {
+  max-height: 100px;
+  resize: none;
+  overflow-y: auto !important;
+}
+
+.contactDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 100px !important;
+}
+
+.contactDiv p,
+.contactDiv h1,
+.contactDiv h2,
+.contactDiv h3,
+.contactDiv h4,
+.contactDiv h5,
+label {
+  color: rgb(29, 27, 25) !important;
+}
+
+.btn {
+  background-color: rgb(29, 27, 25) !important;
+}
+
+.page-footer {
+  background-color: rgb(29, 27, 25) !important;
+}
