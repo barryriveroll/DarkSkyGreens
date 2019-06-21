@@ -8,34 +8,34 @@ export default function Testimonial(props) {
         <li>
           <img src="" alt="" />
           <div className="caption left-align">
-            <h3>This is our big Tagline!</h3>
             <h5 className="light grey-text text-lighten-3">
               Here's our small slogan.
             </h5>
+            <p className="center">Person Name</p>
           </div>
         </li>
         <li>
           <div className="caption left-align">
-            <h3>Left Aligned Caption</h3>
             <h5 className="light grey-text text-lighten-3">
               Here's our small slogan. Here's our small slogan.
             </h5>
+            <p className="center">Person Name</p>
           </div>
         </li>
         <li>
           <div className="caption left-align">
-            <h3>Right Aligned Caption</h3>
             <h5 className="light grey-text text-lighten-3">
               Here's our small slogan.
             </h5>
+            <p className="center">Person Name</p>
           </div>
         </li>
         <li>
           <div className="caption left-align">
-            <h3>This is our big Tagline!</h3>
             <h5 className="light grey-text text-lighten-3">
               Here's our small slogan.
             </h5>
+            <p className="center">Person Name</p>
           </div>
         </li>
       </ul>

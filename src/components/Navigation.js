@@ -15,7 +15,7 @@ export default class Navigation extends Component {
 
   render() {
     return (
-      <div class="dotstyle dotstyle-fillup navdiv">
+      <div class="dotstyle dotstyle-fillup navdiv hide-on-med-and-down">
         <ul>
           <Scrollspy
             items={["home", "about", "testimonial", "contact"]}

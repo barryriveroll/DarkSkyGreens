@@ -5,10 +5,7 @@ import Card from "./components/Card";
 import Testimonial from "./components/Testimonial";
 import Navigation from "./components/Navigation";
 
-import FlagstaffImg from "./images/city.jpg";
 import Flagstaff2Img from "./images/flagstaff.jpg";
-import SunflowersImg from "./images/sunflowers.jpg";
-import GreensImg from "./images/greens.jpg";
 import GreensIcon from "./images/plant.png";
 import ShovelIcon from "./images/shovel.png";
 import MountainIcon from "./images/mountain.png";
@@ -41,21 +38,18 @@ function App() {
       </header>
       <section id="about" className="row">
         <Card
-          bgImage={FlagstaffImg}
           icon={GreensIcon}
           light
           bgOverlay="#C1BDB3"
           headerText="Microgreens"
         />
         <Card
-          bgImage={SunflowersImg}
           icon={ShovelIcon}
           light
           bgOverlay="#63A375"
           headerText="About Us"
         />
         <Card
-          bgImage={GreensImg}
           icon={MountainIcon}
           bgOverlay="#5F5B6B"
           headerText="Flagstaff-Grown"
