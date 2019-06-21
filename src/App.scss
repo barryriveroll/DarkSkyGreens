@@ -7,6 +7,7 @@ $header-font: "Yeseva One";
 html {
   height: 100%;
   background: #1d1b19;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -47,7 +48,7 @@ header hr {
   width: 22%;
   margin-top: -17px;
   border-style: solid;
-  border-color: #62d246;
+  border-color: rgb(99, 163, 117);
 }
 
 // CARDS

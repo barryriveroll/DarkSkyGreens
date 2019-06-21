@@ -3,6 +3,7 @@ import React from "react";
 import "./App.scss";
 import Card from "./components/Card";
 import Testimonial from "./components/Testimonial";
+import Navigation from "./components/Navigation";
 
 import FlagstaffImg from "./images/city.jpg";
 import Flagstaff2Img from "./images/flagstaff.jpg";
@@ -14,10 +15,15 @@ import MountainIcon from "./images/mountain.png";
 import ContactIcon from "./images/contact.png";
 import PowerIcon from "./images/salute.png";
 
+import Scrollspy from "react-scrollspy";
+
 function App() {
   return (
     <>
+      <Navigation />
+      {/* <Scrollspy items={["home", "about", "testimonial", "contact"]}> */}
       <header
+        id="home"
         style={{
           height: "100vh",
           background: `linear-gradient(#2a22407a,#2a22407a), url(${Flagstaff2Img})`,
@@ -33,7 +39,7 @@ function App() {
           </p>
         </div>
       </header>
-      <section className="row">
+      <section id="about" className="row">
         <Card
           bgImage={FlagstaffImg}
           icon={GreensIcon}
@@ -56,6 +62,7 @@ function App() {
         />
       </section>
       <section
+        id="testimonial"
         style={{ height: 280, marginTop: "200px" }}
         className="container"
       >
@@ -64,6 +71,7 @@ function App() {
       </section>
 
       <section
+        id="contact"
         className="row"
         style={{
           marginTop: 300,
@@ -203,6 +211,7 @@ function App() {
           </div>
         </div>
       </footer>
+      {/* </Scrollspy> */}
     </>
   );
 }
